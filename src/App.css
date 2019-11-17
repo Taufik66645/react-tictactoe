@@ -1,3 +1,7 @@
+.Body {
+  background-color: azure
+}
+
 .App {
   text-align: center;
 }
@@ -19,4 +23,33 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.Board {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 530px;
+}
+
+.Row-Board {
+  display: flex;
+  flex: 1;
+}
+
+.Row-Column {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  text-align: center;
+}
+
+.Button-Column {
+  display: flex;
+  flex: 1;
+  display: inline-block;
+  background-color: #fff;
+  font-size: 50px;
 }

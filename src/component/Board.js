@@ -15,11 +15,11 @@ const pattern = [
 
 class Board extends React.Component {
   constructor(props) {
-    super(props);
+    super(props); //super props dipakai ketika ingin mengakses props di dlm class
 
-    this.state = {
+    this.state = { //state yang berisi kondisi yang akan dipasangkan logicnya
       turns: players[1],
-      theWinnerIndex: null,
+      theWinnerIndex: null, //null karena datanya masih kosong
       theWinner: null
     };
   }
